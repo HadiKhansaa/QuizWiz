@@ -27,7 +27,7 @@
 
         <link rel="stylesheet" type="text/css" href="css/util.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>Profile</title>
+    <title>Leaderboard</title>
 </head>
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 <header>

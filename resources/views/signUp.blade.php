@@ -28,6 +28,11 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 </head>
+<style>
+	html, body{
+		overflow: visible;
+	}
+</style>
 <body>
 	
 	<div class="limiter">

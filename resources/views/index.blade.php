@@ -33,8 +33,8 @@
     {{-- <div class="topnav">QuizWiz</div> --}}
     <div class="topnav">
         <a href="#" style="float:left; margin-left:3%; font-size:20px;"><b>QUIZ<span style="color:#fc00ff;">WIZ</span></b></a>
-        <a href="#about"><b>About</b></a>
-        <a href="#contact"><b>Contact</b></a>
+        <a href="contact"><b>Contact</b></a>
+        <a href="leaderboard"><b>Leaderboard</b></a>
         <a href="signUp"><b>Register</b></a>
         <a href="home"><b>Home</b></a>
       </div>
