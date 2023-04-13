@@ -194,10 +194,24 @@
     use Illuminate\Support\Facades\DB;
     use Illuminate\Http\Request;
     $id = session()->get('user');
-    $result = DB::select("select * from accounts where id = ".$id);
-    $name = $result[0]->full_name;
-    $username = $result[0]->username;
-    $rating = $result[0]->rating;
+    if($id != null)
+    {
+        $result = DB::select("select * from accounts where id = ".$id);
+    }
+    else {
+        $result = null;
+    }
+
+    if($result !=null){
+        $name = $result[0]->full_name;
+        $username = $result[0]->username;
+        $rating = $result[0]->rating;
+    }
+    else{
+        $name = "not found";
+        $username = "not found";
+        $rating = 0;
+    }
 ?>
 
 <body>

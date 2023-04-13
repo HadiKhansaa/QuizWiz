@@ -9,14 +9,18 @@
 </head>
 <?php 
     session_start();
-    $diff = $_SESSION['diff'];
-    if($diff == 'easy')
+    try {
+        $diff = $_SESSION['diff'];
+        if($diff == 'easy')
+            $mult = 1;
+        else if ($diff == 'medium')
+            $mult = 1.5;
+        else
+            $mult = 2;
+    } catch (\Throwable $th) {
         $mult = 1;
-    else if ($diff == 'medium')
-        $mult = 1.5;
-    else
-        $mult = 2;
-    
+        $diff = 'easy';
+    }
     $bonus = $_GET['result']-50;
     //negative bonus
     if($bonus<0)
