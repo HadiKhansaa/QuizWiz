@@ -27,7 +27,7 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <title>QuizWiz</title>
+        <title>Contact</title>
 </head>
 
 <header>
