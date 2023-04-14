@@ -46,13 +46,15 @@
     }
 </style>
 <html>
-    <body class="main-container" style="width:100%; background-image: url('images/bg-01.jpg'); display:flex; justify-content:center; align-items:center;">
-        <center><h1>Hadi Al Khansa</h1></center>
+    <body class="main-container" style="width:100%; background-image: url('images/bg-01.jpg'); display:flex; justify-content:center; align-items:center; margin-top:4%;">
+        <center><h1>Hadi Al Khansa - Lead Developer</h1></center>
         <h1>Email: hadi.kansa.950@gmail.com</h1>
+        <h1>Location: Beirut, Lebanon</h1>
         <h1>phone: +961 70 998390</h1><br><br>
 
-        <center><h1>Mohammad Khreis</h1></center>
+        <center><h1>Mohammad Khreiss - Lead Developer</h1></center>
         <h1>Email: mohammadkhreiss@st.ul.edu.lb</h1>
+        <h1>Location: Beirut, Lebanon</h1>
         <h1>phone: +961 76 964 234</h1><br><br>
     </body>
 </html>

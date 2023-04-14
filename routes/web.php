@@ -24,7 +24,6 @@ Route::view('signUp', 'signUp');
 Route::post('createAccount', [EmailController::class, 'createAccount']);
 Route::view('/profile', 'profile2');
 
-// khreis stuff
 Route::view('/difficulty', 'difficulty');
 Route::view('/quiz', 'quiz');
 Route::view('/result', 'result');

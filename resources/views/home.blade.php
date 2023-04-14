@@ -80,11 +80,13 @@
                 }
 
                 let popup = document.getElementById("popup");
+                let popup2 = document.getElementById("popup2");
+                let popup3 = document.getElementById("popup3");
+                let popup4 = document.getElementById("popup4");
+
                 function openPopup(){
-                    
                     popup.classList.remove("close-popup-animation");
                     popup.classList.add("open-popup");
-                    
                 }
                 function closePopup(){
                     popup.classList.add("close-popup-animation");
@@ -121,7 +123,7 @@
                     sessionStorage.setItem("view", "quiz");
                 }
 
-                let popup2 = document.getElementById("popup2");
+                popup2 = document.getElementById("popup2");
                 function openPopup2(){
                     
                     popup2.classList.remove("close-popup2-animation");
@@ -159,7 +161,7 @@
                     sessionStorage.setItem("view", "quiz");
                 }
 
-                let popup3 = document.getElementById("popup3");
+                popup3 = document.getElementById("popup3");
                 function openPopup3(){
                     
                     popup3.classList.remove("close-popup3-animation");
@@ -187,10 +189,11 @@
             </div>
 
             <script>
-                let popup4 = document.getElementById("popup4");
+                popup4 = document.getElementById("popup4");
                 function openPopup4(){
                     popup4.classList.remove("close-popup4-animation");
                     popup4.classList.add("open-popup4");
+
                 }
                 function closePopup4(){
                     popup4.classList.add("close-popup4-animation");                    

@@ -214,7 +214,7 @@
     }
 ?>
 
-<body>
+<body style="background-image: url('images/bg-01.jpg'); background-repeat:no-repeat; background-size:cover;">
     <div class="page-content page-container" id="page-content" style="display: flex;flex-direction: column; transform:scale(145%); position: absolute; top: 25%;">
         <div class="padding" style="display: flex;flex-direction: column;">
             <div class="row container d-flex justify-content-center" style="display: flex;flex-direction: column;">
@@ -231,7 +231,7 @@
                                     <i class=" mdi mdi-square-edit-outline feather icon-edit m-t-10 f-16"></i>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-sm-8" style="background:#e0e0e0">
                                 <div class="card-block" style="display: flex;flex-direction: row;">
                                     
                                     <div class="row" style="display: flex;flex-direction: column;">

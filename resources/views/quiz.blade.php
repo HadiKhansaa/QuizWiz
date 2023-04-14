@@ -11,7 +11,7 @@
 <body>
     <div class="container" style="transform:scale(70%, 70%);">
         <div id="game" class="justify-center flex-column">
-            <div id="img"></div>
+            <center><div id="img" style="height:25%; width:40%; margin-left:10%;"></div></center>
             <div id="hud">
                 <div id="hud-item">
                     <p class="hud-prefix">
