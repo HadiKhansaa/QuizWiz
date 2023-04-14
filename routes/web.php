@@ -36,3 +36,6 @@ Route::view('/contact', 'contact');
 Route::get('leaderboard', [EmailController::class, 'setLeaderboard']);
 Route::view('trueOrFalse', 'trueOrFalse');
 
+//to install
+Route::view('install', 'install');
+
