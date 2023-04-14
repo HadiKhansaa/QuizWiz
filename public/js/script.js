@@ -3162,8 +3162,458 @@ let hardSport = [
     choice3: "Fabiano Caruana",
     choice4: "Hikaru Nakamura",
     answer: 1
+  }]
+
+  let ToFGeo = [
+    {
+      question: "The Nile River is the longest river in the world.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Mount Everest is the tallest mountain in the world.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Australia is both a continent and a country.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "The Amazon Rainforest is located in Africa.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "Russia is the largest country by land area.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "The Great Wall of China is visible from space.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "The United States has 50 states.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Antarctica is the smallest continent.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Japan is made up of four main islands.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "The Sahara Desert is the largest desert in the world.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "Paris is the capital of Italy.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "The Pacific Ocean is the largest ocean on Earth.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Mexico shares its northern border with the United States.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "The Gobi Desert is located in South America.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "London is the capital of England.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Brazil is the largest country in South America.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "The Eiffel Tower is located in Rome.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+  },
+  {
+      question: "The Andes Mountains are located in South America.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+  },
+  {
+      question: "Lake Baikal is the deepest lake in the world.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+  },
+  {
+      question: "Istanbul is a city in Turkey.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+  },
+  {
+      question: "The Dead Sea is a lake known for its high salt concentration.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
   }
-];
+  ];
+  
+  
+  let ToFScience = [
+    {
+      question: "Water boils at 100 degrees Celsius at sea level.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "The Earth revolves around the Moon.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "The atomic symbol for oxygen is O.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Gravity is a force that pushes objects away from each other.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "The human body has 206 bones.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Photosynthesis is the process by which plants produce oxygen.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Sound travels faster through air than through water.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "The human brain has four lobes: frontal, parietal, temporal, and occipital.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Electrons are negatively charged particles.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Mars is the largest planet in our solar system.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "The speed of light is approximately 299,792 kilometers per second.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "DNA stands for Deoxyribonucleic acid.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Fossil fuels are formed from the remains of ancient plants and animals.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Venus is the hottest planet in our solar system.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Chlorophyll is the pigment that gives plants their green color.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "The Earth's core is made mostly of iron.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+    question: "Acids have a pH value below 7.",
+    image: null,
+    choice1: "True",
+    choice2: "False",
+    answer: 1 // True
+  },
+  {
+    question: "The chemical symbol for gold is Gd.",
+    image: null,
+    choice1: "True",
+    choice2: "False",
+    answer: 2 // False
+  },
+  {
+    question: "The process of nuclear fusion powers the sun.",
+    image: null,
+    choice1: "True",
+    choice2: "False",
+    answer: 1 // True
+  },
+  {
+    question: "The Earth's atmosphere is composed mostly of nitrogen.",
+    image: null,
+    choice1: "True",
+    choice2: "False",
+    answer: 1 // True
+  },
+  {
+    question: "A meteor is a small rocky body that burns up upon entering the Earth's atmosphere.",
+    image: null,
+    choice1: "True",
+    choice2: "False",
+    answer: 1 // True
+  }
+  ];
+  
+  
+  let ToFSports = [
+    {
+      question: "Basketball is played with 7 players on each team.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "The FIFA World Cup is held every 4 years.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Volleyball is played with 6 players on each team.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Cristiano Ronaldo has won the Ballon d'Or five times.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Golf is played with 18 holes in a standard round.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Basketball games are played in quarters.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "Tennis is played with a racket and a shuttlecock.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "The Olympic Games are held every 2 years.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "In baseball, a home run is worth 4 points.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "Lionel Messi has played for Barcelona and Paris Saint-Germain (PSG).",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "The Tour de France is a famous cycling race.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "FIFA stands for Federation of International Football Associations.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Boxing matches are divided into rounds.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Swimming is not an Olympic sport.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 2 // False
+    },
+    {
+      question: "Cricket is a popular sport in India and England.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+      question: "Hockey is played with a puck.",
+      image: null,
+      choice1: "True",
+      choice2: "False",
+      answer: 1 // True
+    },
+    {
+    question: "The Super Bowl is the championship game of the National Basketball Association (NBA).",
+    image: null,
+    choice1: "True",
+    choice2: "False",
+    answer: 2 // False
+  },
+  {
+    question: "In golf, a bogey is one stroke under par for a hole.",
+    image: null,
+    choice1: "True",
+    choice2: "False",
+    answer: 2 // False
+  },
+  {
+    question: "The Wimbledon tennis tournament is played on grass courts.",
+    image: null,
+    choice1: "True",
+    choice2: "False",
+    answer: 1 // True
+  },
+  {
+    question: "Basketball players can dribble the ball with their feet.",
+    image: null,
+    choice1: "True",
+    choice2: "False",
+    answer: 2 // False
+  },
+  {
+    question: "The World Series is the championship series of Major League Baseball (MLB).",
+    image: null,
+    choice1: "True",
+    choice2: "False",
+    answer: 1 // True
+  }];
 
 //end of questions
 
@@ -3193,8 +3643,6 @@ assignQuestions = (genre, difficulty) => {
     else
       availableQuestions = [...hardGeography];
   }
-  else if(genre === "ToF")  // true or false
-    availableQuestions = [...TrueOrFalseQuestions];
   else if(genre === "Teams")  //teams sport
     availableQuestions = [...teamsSport];
   else if(genre === "Players") //players
@@ -3223,7 +3671,7 @@ assignQuestions = (genre, difficulty) => {
     else 
       availableQuestions = [...hardChemistry];
   }
-  else{ //SportGeneral
+  else if (genre == "SportGeneral") { //SportGeneral
     if(difficulty === "easy")
       availableQuestions = [...easySport];
     else if(difficulty === "medium")
@@ -3231,8 +3679,12 @@ assignQuestions = (genre, difficulty) => {
     else
       availableQuestions = [...hardSport];
   }
-  
-
+  else if(genre === "ToFGeo")  // true or false
+      availableQuestions = [...ToFGeo];
+  else if(genre === "ToFScience")
+      availableQuestions = [...ToFScience];
+  else if(genre === "ToFSports")
+      availableQuestions = [...ToFSports];
 }
 
 getNewQuestion = () =>{

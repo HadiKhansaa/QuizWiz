@@ -60,12 +60,18 @@
 
             <div class="popup" id="popup">
                 <a type="button" class="button-20" style="margin-left: 2vh;" onclick="closePopup()">x</a>
+                <a onclick="setToFSport()" href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh"> True or False</a>
                 <a onclick="setTeam()" href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh">Teams</a>
                 <a onclick="setPlayer()" href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh">Players</a>
                 <a onclick="setSportGeneral()" href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh">General</a>
             </div>
             
             <script>
+                function setToFSport(){
+                    sessionStorage.setItem("genre", "ToFSports");
+                    sessionStorage.setItem("view", "trueOrFalse");
+                }
+
                 function setTeam(){
                     sessionStorage.setItem("genre", "Teams");
                     sessionStorage.setItem("view", "quiz");
@@ -103,13 +109,17 @@
 
             <div class="popup2" id="popup2">
                 <a type="button" class="button-20" style="margin-left: 2vh;" onclick="closePopup2()">x</a>
+                <a onclick="setToFScience()" href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh"> True or False</a>
                 <a onclick="setMath()" href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh">Math</a>
                 <a onclick="setPhysics()"href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh">Physics</a>
                 <a onclick="setChemistry()" href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh">Chemistry</a>
             </div>
 
             <script>
-
+                function setToFScience(){
+                    sessionStorage.setItem("genre", "ToFScience");
+                    sessionStorage.setItem("view", "trueOrFalse");
+                }
                 function setMath(){
                     sessionStorage.setItem("genre", "Math");
                     sessionStorage.setItem("view", "quiz");
@@ -145,13 +155,17 @@
 
             <div class="popup3" id="popup3">
                 <a type="button" class="button-20" style="margin-left: 2vh;" onclick="closePopup3()">x</a>
+                <a onclick="setToFGeo()" href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh"> True or False</a>
                 <a onclick="setFlags()" href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh">Flags</a>
                 <a onclick="setGeoGeneral()" href="difficulty" type="button" class="button-20" style="margin:2vh 0 0 2vh">General</a>
                 {{-- <button type="button" class="button-20" style="margin:2vh 0 0 2vh">Basketball</button> --}}
             </div>
 
             <script>
-
+                function setToFGeo(){
+                    sessionStorage.setItem("genre", "ToFGeo");
+                    sessionStorage.setItem("view", "trueOrFalse");
+                }
                 function setFlags(){
                     sessionStorage.setItem("genre", "Flags");
                     sessionStorage.setItem("view", "guessFlag");

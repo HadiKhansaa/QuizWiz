@@ -34,4 +34,5 @@ Route::view('/scramble', 'scramble');
 Route::view('/memory', 'memory');
 Route::view('/contact', 'contact');
 Route::get('leaderboard', [EmailController::class, 'setLeaderboard']);
+Route::view('trueOrFalse', 'trueOrFalse');
 

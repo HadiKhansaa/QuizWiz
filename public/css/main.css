@@ -611,7 +611,7 @@ iframe {
 
 .popup{
   position: absolute;
-  top: 7%;
+  top: 2%;
   left: 21%;
   padding: 5%;
   display: flex;
@@ -638,7 +638,7 @@ iframe {
 
 .popup2{
   position: absolute;
-  top: 7%;
+  top: 2%;
   left: 121%;
   padding: 5%;
   display: flex;
@@ -665,7 +665,7 @@ iframe {
 
 .popup3{
   position: absolute;
-  top: 56%;
+  top: 51%;
   left: 21%;
   padding: 5%;
   display: flex;
@@ -691,7 +691,7 @@ iframe {
 
 .popup4{
   position: absolute;
-  top: 56%;
+  top: 51%;
   left: 70%;
   padding: 5%;
   display: flex;

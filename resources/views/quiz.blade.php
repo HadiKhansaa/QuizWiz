@@ -69,7 +69,4 @@
     <script> let g = sessionStorage.getItem("genre"); </script>
     <script>startGame(g, d)</script>
 </body>
-
-
-
 </html>
