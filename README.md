@@ -1,1 +1,1 @@
-A website containing quizes and minigames of vast categories. done using laravel. languages used: Php, JavaScript
+Developed a dynamic website utilizing PHP and JavaScript with the Laravel framework, featuring an extensive range of interactive quizzes, trivia questions, and engaging minigames across diverse categories including science, geography, sports, and more. The web application enables users to create personalized accounts, facilitating the tracking and monitoring of their performance and ratings within specific categories.
